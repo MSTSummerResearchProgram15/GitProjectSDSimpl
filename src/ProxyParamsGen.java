@@ -66,7 +66,7 @@ public ElementPowPreProcessing gpre;
          Element g = g1.newRandomElement().getImmutable();
          params.setg(g);
            
-         //******ElementPowPreProcessing gpre = g.pow();
+         ElementPowPreProcessing gpre = g.getElementPowPreProcessing();
          params.setgpre(gpre);
          
         /* Element k = zr.newRandomElement().getImmutable();
